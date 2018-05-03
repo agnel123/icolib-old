@@ -90,10 +90,13 @@ var diretoryTreeToObj = function(dir, done) {
 };
 
 app.get('/', function(req, res) {
-    // res.sendFile(path.join(__dirname + '/index.html'));
+     res.sendFile(path.join(__dirname + '/index.html'));
 //    console.log(path.join(__dirname + '/index.html'));
-    res.send(path.join(__dirname));
+ //   res.send(path.join(__dirname));
 
 });
+var port = process.env.PORT || 8080;
 
-app.listen(8080);
+app.listen(port, function() {
+	console.log('Our app is running on http://localhost:' + port);
+});

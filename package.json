@@ -1,0 +1,37 @@
+{
+  "name": "icolib",
+  "version": "1.0.0",
+  "description": "icon library",
+  "main": "app.js",
+  "dependencies": {
+    "directory-tree": "^2.1.0",
+    "express": "^4.16.3",
+    "filehound": "^1.16.3"
+  },
+  "engines": {
+    "node": "6.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agnel123/icolib.git"
+  },
+  "keywords": [
+    "icon",
+    "library",
+    "icon",
+    "manager",
+    "icon",
+    "stash"
+  ],
+  "author": "Agnel Amodia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agnel123/icolib/issues"
+  },
+  "homepage": "https://github.com/agnel123/icolib#readme"
+}
